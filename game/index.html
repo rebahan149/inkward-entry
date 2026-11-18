@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INKWARD — a sumi-e sealing rite</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #17130e; min-height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: system-ui, sans-serif; }
+  canvas { display: block; width: min(1152px, 100vw); height: auto; background: #f4ecd9; box-shadow: 0 10px 48px rgba(0,0,0,0.6); touch-action: none; }
+  p { color: #9a8b6d; font-size: 13px; margin: 10px 0 14px; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1152" height="768"></canvas>
+<p>INKWARD — hold the mouse and walk a closed loop of ink to seal the spirits loose on the scroll. Keyboard and mouse; M mutes.</p>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
